@@ -1,7 +1,3 @@
-# vagrant-wssalud
-Entorno Vagrant para MV de webservice salud
-
-1. configurar los datos del la base de datos y la carpeta compartida
 # Config virtual machine info
 machine_name : 'WS Salud'
 local_domain : 'ws-salud.dev'
@@ -22,6 +18,3 @@ syncDir :
     group: www-data
     dmode: 775
     fmode: 775
-
-
-2. clonar el proyecto dentro de src/ws-salud
